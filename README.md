@@ -4,7 +4,7 @@ Simple socks5 server using go-socks5 with or without auth
 
 ## Start container with proxy
 
-```docker run -d --name socks5 -p 1080:1080 -e PROXY_USER=<PROXY_USER> -e PROXY_PASSWORD=<PROXY_PASSWORD>  serjs/go-socks5-proxy```
+```docker run -d --name socks5 -p 1080:1080 -e PROXY_USER=<PROXY_USER> -e PROXY_PASSWORD=<PROXY_PASSWORD> mrhadenough/rpi-socks5-server```
 
 For auth-less mode just do not pass envrionment variables `PROXY_USER` and `PROXY_PASSWORD`.
 
